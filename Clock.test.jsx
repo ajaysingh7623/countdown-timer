@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { shallow,mount } from 'enzyme';
-import Clock from './Clock';
+import Clock from '../components/CountdownForm';
 
 describe('Clock', () => {
    it('renders without crashing', () => {

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-dom/test-utils';
 
-import CountdownForm from './CountdownForm';
+import CountdownForm from '../components/CountdownForm';
 
 describe('CountdownForm', () => {
     it('renders without crashing', () => {
